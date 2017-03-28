@@ -1,0 +1,115 @@
+2017/03/28 02:23:32 [notice] 362#0: ModSecurity for nginx (STABLE)/2.9.1 (http://www.modsecurity.org/) configured.
+2017/03/28 02:23:32 [notice] 362#0: ModSecurity: APR compiled version="1.5.2"; loaded version="1.5.2"
+2017/03/28 02:23:32 [notice] 362#0: ModSecurity: PCRE compiled version="8.38 "; loaded version="8.38 2015-11-23"
+2017/03/28 02:23:32 [notice] 362#0: ModSecurity: LIBXML compiled version="2.9.3"
+2017/03/28 02:23:32 [notice] 362#0: ModSecurity: StatusEngine call: "2.9.1,nginx,1.5.2/1.5.2,8.38/8.38 2015-11-23,(null),2.9.3,5fb7332563dc638c4cd5d75c34d5e19326492db8"
+2017/03/28 02:23:32 [notice] 362#0: ModSecurity: StatusEngine call successfully sent. For more information visit: http://status.modsecurity.org/
+2017/03/28 04:11:22 [error] 364#0: *26 connect() failed (111: Connection refused) while connecting to upstream, client: 110.232.67.201, server: localhost, request: "GET / HTTP/1.0", upstream: "http://54.186.160.108:8080/"
+2017/03/28 05:29:50 [error] 364#0: *28 connect() failed (111: Connection refused) while connecting to upstream, client: 100.1.102.62, server: localhost, request: "GET / HTTP/1.1", upstream: "http://54.186.160.108:8080/", host: "ec2-54-214-142-24.us-west-2.compute.amazonaws.com"
+2017/03/28 05:29:54 [error] 364#0: *28 connect() failed (111: Connection refused) while connecting to upstream, client: 100.1.102.62, server: localhost, request: "GET / HTTP/1.1", upstream: "http://54.186.160.108:8080/", host: "ec2-54-214-142-24.us-west-2.compute.amazonaws.com"
+2017/03/28 07:17:57 [emerg] 1663#0: ModSecurityConfig in /usr/local/nginx/conf/nginx.conf:47: Syntax error in config file /usr/local/nginx/conf/modsecurity.conf, line 231: Error parsing actions: Unknown action: \
+2017/03/28 07:20:40 [notice] 1795#0: ModSecurity for nginx (STABLE)/2.9.1 (http://www.modsecurity.org/) configured.
+2017/03/28 07:20:40 [notice] 1795#0: ModSecurity: APR compiled version="1.5.2"; loaded version="1.5.2"
+2017/03/28 07:20:40 [notice] 1795#0: ModSecurity: PCRE compiled version="8.38 "; loaded version="8.38 2015-11-23"
+2017/03/28 07:20:40 [notice] 1795#0: ModSecurity: LIBXML compiled version="2.9.3"
+2017/03/28 07:20:40 [notice] 1795#0: ModSecurity: StatusEngine call: "2.9.1,nginx,1.5.2/1.5.2,8.38/8.38 2015-11-23,(null),2.9.3,5fb7332563dc638c4cd5d75c34d5e19326492db8"
+2017/03/28 07:20:40 [notice] 1795#0: ModSecurity: StatusEngine call successfully sent. For more information visit: http://status.modsecurity.org/
+2017/03/28 07:20:40 [notice] 1795#0: signal process started
+2017/03/28 07:20:54 [error] 1796#0: [client 100.1.102.62] ModSecurity: Warning. String match "DELETE" at ARGS:entry. [file "/usr/local/nginx/conf/modsecurity.conf"] [line "231"] [id "11"] [msg "SQL Injection Multi Query"] [severity "ALERT"] [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "AcAcAcAcAcAcCcAcAcAcAtAc"]
+2017/03/28 07:20:54 [error] 1796#0: [client 100.1.102.62] ModSecurity: Audit log: Failed to lock global mutex: Permission denied [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "AcAcAcAcAcAcCcAcAcAcAtAc"]
+2017/03/28 07:20:54 [error] 1796#0: [client 100.1.102.62] ModSecurity: Audit log: Failed to unlock global mutex: Permission denied [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "AcAcAcAcAcAcCcAcAcAcAtAc"]
+2017/03/28 07:21:24 [notice] 1800#0: ModSecurity for nginx (STABLE)/2.9.1 (http://www.modsecurity.org/) configured.
+2017/03/28 07:21:24 [notice] 1800#0: ModSecurity: APR compiled version="1.5.2"; loaded version="1.5.2"
+2017/03/28 07:21:24 [notice] 1800#0: ModSecurity: PCRE compiled version="8.38 "; loaded version="8.38 2015-11-23"
+2017/03/28 07:21:24 [notice] 1800#0: ModSecurity: LIBXML compiled version="2.9.3"
+2017/03/28 07:21:24 [notice] 1800#0: ModSecurity: StatusEngine call: "2.9.1,nginx,1.5.2/1.5.2,8.38/8.38 2015-11-23,(null),2.9.3,5fb7332563dc638c4cd5d75c34d5e19326492db8"
+2017/03/28 07:21:24 [notice] 1800#0: ModSecurity: StatusEngine call successfully sent. For more information visit: http://status.modsecurity.org/
+2017/03/28 07:21:24 [notice] 1800#0: signal process started
+2017/03/28 07:22:14 [notice] 1807#0: ModSecurity for nginx (STABLE)/2.9.1 (http://www.modsecurity.org/) configured.
+2017/03/28 07:22:14 [notice] 1807#0: ModSecurity: APR compiled version="1.5.2"; loaded version="1.5.2"
+2017/03/28 07:22:14 [notice] 1807#0: ModSecurity: PCRE compiled version="8.38 "; loaded version="8.38 2015-11-23"
+2017/03/28 07:22:14 [notice] 1807#0: ModSecurity: LIBXML compiled version="2.9.3"
+2017/03/28 07:22:14 [notice] 1807#0: ModSecurity: StatusEngine call: "2.9.1,nginx,1.5.2/1.5.2,8.38/8.38 2015-11-23,(null),2.9.3,5fb7332563dc638c4cd5d75c34d5e19326492db8"
+2017/03/28 07:22:14 [notice] 1807#0: ModSecurity: StatusEngine call successfully sent. For more information visit: http://status.modsecurity.org/
+2017/03/28 07:22:14 [notice] 1807#0: signal process started
+2017/03/28 07:22:53 [notice] 1812#0: ModSecurity for nginx (STABLE)/2.9.1 (http://www.modsecurity.org/) configured.
+2017/03/28 07:22:53 [notice] 1812#0: ModSecurity: APR compiled version="1.5.2"; loaded version="1.5.2"
+2017/03/28 07:22:53 [notice] 1812#0: ModSecurity: PCRE compiled version="8.38 "; loaded version="8.38 2015-11-23"
+2017/03/28 07:22:53 [notice] 1812#0: ModSecurity: LIBXML compiled version="2.9.3"
+2017/03/28 07:22:53 [notice] 1812#0: ModSecurity: StatusEngine call: "2.9.1,nginx,1.5.2/1.5.2,8.38/8.38 2015-11-23,(null),2.9.3,5fb7332563dc638c4cd5d75c34d5e19326492db8"
+2017/03/28 07:22:53 [notice] 1812#0: ModSecurity: StatusEngine call successfully sent. For more information visit: http://status.modsecurity.org/
+2017/03/28 07:22:53 [notice] 1812#0: signal process started
+2017/03/28 07:23:32 [notice] 1817#0: ModSecurity for nginx (STABLE)/2.9.1 (http://www.modsecurity.org/) configured.
+2017/03/28 07:23:32 [notice] 1817#0: ModSecurity: APR compiled version="1.5.2"; loaded version="1.5.2"
+2017/03/28 07:23:32 [notice] 1817#0: ModSecurity: PCRE compiled version="8.38 "; loaded version="8.38 2015-11-23"
+2017/03/28 07:23:32 [notice] 1817#0: ModSecurity: LIBXML compiled version="2.9.3"
+2017/03/28 07:23:32 [notice] 1817#0: ModSecurity: StatusEngine call: "2.9.1,nginx,1.5.2/1.5.2,8.38/8.38 2015-11-23,(null),2.9.3,5fb7332563dc638c4cd5d75c34d5e19326492db8"
+2017/03/28 07:23:32 [notice] 1817#0: ModSecurity: StatusEngine call successfully sent. For more information visit: http://status.modsecurity.org/
+2017/03/28 07:23:32 [notice] 1817#0: signal process started
+2017/03/28 07:25:47 [notice] 1822#0: ModSecurity for nginx (STABLE)/2.9.1 (http://www.modsecurity.org/) configured.
+2017/03/28 07:25:47 [notice] 1822#0: ModSecurity: APR compiled version="1.5.2"; loaded version="1.5.2"
+2017/03/28 07:25:47 [notice] 1822#0: ModSecurity: PCRE compiled version="8.38 "; loaded version="8.38 2015-11-23"
+2017/03/28 07:25:47 [notice] 1822#0: ModSecurity: LIBXML compiled version="2.9.3"
+2017/03/28 07:25:47 [notice] 1822#0: ModSecurity: StatusEngine call: "2.9.1,nginx,1.5.2/1.5.2,8.38/8.38 2015-11-23,(null),2.9.3,5fb7332563dc638c4cd5d75c34d5e19326492db8"
+2017/03/28 07:25:47 [notice] 1822#0: ModSecurity: StatusEngine call successfully sent. For more information visit: http://status.modsecurity.org/
+2017/03/28 07:25:47 [notice] 1822#0: signal process started
+2017/03/28 07:25:59 [error] 1823#0: [client 100.1.102.62] ModSecurity: Warning. detected SQLi using libinjection with fingerprint 's;Tks' [file "/usr/local/nginx/conf/modsecurity.conf"] [line "229"] [id "152"] [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "AcAFfBAcAcAcQHAcAcAcAcAc"]
+2017/03/28 07:25:59 [error] 1823#0: [client 100.1.102.62] ModSecurity: Audit log: Failed to lock global mutex: Permission denied [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "AcAFfBAcAcAcQHAcAcAcAcAc"]
+2017/03/28 07:25:59 [error] 1823#0: [client 100.1.102.62] ModSecurity: Audit log: Failed to unlock global mutex: Permission denied [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "AcAFfBAcAcAcQHAcAcAcAcAc"]
+2017/03/28 07:29:19 [notice] 2037#0: ModSecurity for nginx (STABLE)/2.9.1 (http://www.modsecurity.org/) configured.
+2017/03/28 07:29:19 [notice] 2037#0: ModSecurity: APR compiled version="1.5.2"; loaded version="1.5.2"
+2017/03/28 07:29:19 [notice] 2037#0: ModSecurity: PCRE compiled version="8.38 "; loaded version="8.38 2015-11-23"
+2017/03/28 07:29:19 [notice] 2037#0: ModSecurity: LIBXML compiled version="2.9.3"
+2017/03/28 07:29:19 [notice] 2037#0: ModSecurity: StatusEngine call: "2.9.1,nginx,1.5.2/1.5.2,8.38/8.38 2015-11-23,(null),2.9.3,5fb7332563dc638c4cd5d75c34d5e19326492db8"
+2017/03/28 07:29:19 [notice] 2037#0: ModSecurity: StatusEngine call successfully sent. For more information visit: http://status.modsecurity.org/
+2017/03/28 07:29:19 [notice] 2037#0: signal process started
+2017/03/28 07:32:22 [notice] 2047#0: ModSecurity for nginx (STABLE)/2.9.1 (http://www.modsecurity.org/) configured.
+2017/03/28 07:32:22 [notice] 2047#0: ModSecurity: APR compiled version="1.5.2"; loaded version="1.5.2"
+2017/03/28 07:32:22 [notice] 2047#0: ModSecurity: PCRE compiled version="8.38 "; loaded version="8.38 2015-11-23"
+2017/03/28 07:32:22 [notice] 2047#0: ModSecurity: LIBXML compiled version="2.9.3"
+2017/03/28 07:32:22 [notice] 2047#0: ModSecurity: StatusEngine call: "2.9.1,nginx,1.5.2/1.5.2,8.38/8.38 2015-11-23,(null),2.9.3,5fb7332563dc638c4cd5d75c34d5e19326492db8"
+2017/03/28 07:32:22 [notice] 2047#0: ModSecurity: StatusEngine call successfully sent. For more information visit: http://status.modsecurity.org/
+2017/03/28 07:32:22 [notice] 2047#0: signal process started
+2017/03/28 07:32:31 [error] 2048#0: [client 100.1.102.62] ModSecurity: Warning. detected SQLi using libinjection with fingerprint 's;Tks' [file "/usr/local/nginx/conf/modsecurity.conf"] [line "229"] [id "152"] [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "AcAcAr4cAcAcAcAcAcAcBcAc"]
+2017/03/28 07:32:31 [error] 2048#0: [client 100.1.102.62] ModSecurity: Warning. String match "delete" at ARGS:entry. [file "/usr/local/nginx/conf/modsecurity.conf"] [line "231"] [id "11"] [msg "SQL Injection Multi Query"] [severity "ALERT"] [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "AcAcAr4cAcAcAcAcAcAcBcAc"]
+2017/03/28 07:32:31 [error] 2048#0: [client 100.1.102.62] ModSecurity: Audit log: Failed to lock global mutex: Permission denied [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "AcAcAr4cAcAcAcAcAcAcBcAc"]
+2017/03/28 07:32:31 [error] 2048#0: [client 100.1.102.62] ModSecurity: Audit log: Failed to unlock global mutex: Permission denied [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "AcAcAr4cAcAcAcAcAcAcBcAc"]
+2017/03/28 07:32:39 [error] 2048#0: [client 100.1.102.62] ModSecurity: Warning. String match "delete" at ARGS:entry. [file "/usr/local/nginx/conf/modsecurity.conf"] [line "231"] [id "11"] [msg "SQL Injection Multi Query"] [severity "ALERT"] [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "AcFcrcAgAc8zAc0NA0AcAcAc"]
+2017/03/28 07:32:39 [error] 2048#0: [client 100.1.102.62] ModSecurity: Audit log: Failed to lock global mutex: Permission denied [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "AcFcrcAgAc8zAc0NA0AcAcAc"]
+2017/03/28 07:32:39 [error] 2048#0: [client 100.1.102.62] ModSecurity: Audit log: Failed to unlock global mutex: Permission denied [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "AcFcrcAgAc8zAc0NA0AcAcAc"]
+2017/03/28 07:35:04 [notice] 2056#0: ModSecurity for nginx (STABLE)/2.9.1 (http://www.modsecurity.org/) configured.
+2017/03/28 07:35:04 [notice] 2056#0: ModSecurity: APR compiled version="1.5.2"; loaded version="1.5.2"
+2017/03/28 07:35:04 [notice] 2056#0: ModSecurity: PCRE compiled version="8.38 "; loaded version="8.38 2015-11-23"
+2017/03/28 07:35:04 [notice] 2056#0: ModSecurity: LIBXML compiled version="2.9.3"
+2017/03/28 07:35:04 [notice] 2056#0: ModSecurity: StatusEngine call: "2.9.1,nginx,1.5.2/1.5.2,8.38/8.38 2015-11-23,(null),2.9.3,5fb7332563dc638c4cd5d75c34d5e19326492db8"
+2017/03/28 07:35:04 [notice] 2056#0: ModSecurity: StatusEngine call successfully sent. For more information visit: http://status.modsecurity.org/
+2017/03/28 07:35:04 [notice] 2056#0: signal process started
+2017/03/28 07:35:12 [error] 2057#0: [client 100.1.102.62] ModSecurity: Access denied with code 403 (phase 2). String match "delete" at ARGS:entry. [file "/usr/local/nginx/conf/modsecurity.conf"] [line "231"] [id "11"] [msg "SQL Injection Multi Query"] [severity "ALERT"] [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "1cAcAcApAiA8AcAcAIacAcAZ"]
+2017/03/28 07:35:17 [error] 2057#0: [client 100.1.102.62] ModSecurity: Audit log: Failed to lock global mutex: Permission denied [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "1cAcAcApAiA8AcAcAIacAcAZ"]
+2017/03/28 07:35:17 [error] 2057#0: [client 100.1.102.62] ModSecurity: Audit log: Failed to unlock global mutex: Permission denied [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "1cAcAcApAiA8AcAcAIacAcAZ"]
+2017/03/28 07:35:21 [error] 2057#0: [client 100.1.102.62] ModSecurity: Access denied with code 403 (phase 2). detected SQLi using libinjection with fingerprint 's;Tks' [file "/usr/local/nginx/conf/modsecurity.conf"] [line "229"] [id "152"] [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "AcecJxAcqcAcAcAaycAcAiAM"]
+2017/03/28 07:35:26 [error] 2057#0: [client 100.1.102.62] ModSecurity: Audit log: Failed to lock global mutex: Permission denied [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "AcecJxAcqcAcAcAaycAcAiAM"]
+2017/03/28 07:35:26 [error] 2057#0: [client 100.1.102.62] ModSecurity: Audit log: Failed to unlock global mutex: Permission denied [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "AcecJxAcqcAcAcAaycAcAiAM"]
+2017/03/28 07:35:36 [error] 2057#0: [client 100.1.102.62] ModSecurity: Access denied with code 403 (phase 2). detected SQLi using libinjection with fingerprint 's;Tks' [file "/usr/local/nginx/conf/modsecurity.conf"] [line "229"] [id "152"] [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "A3AcbcAcAcAcAcAcAcA9HcAc"]
+2017/03/28 07:35:41 [error] 2057#0: [client 100.1.102.62] ModSecurity: Audit log: Failed to lock global mutex: Permission denied [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "A3AcbcAcAcAcAcAcAcA9HcAc"]
+2017/03/28 07:35:41 [error] 2057#0: [client 100.1.102.62] ModSecurity: Audit log: Failed to unlock global mutex: Permission denied [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "A3AcbcAcAcAcAcAcAcA9HcAc"]
+2017/03/28 07:40:29 [error] 2057#0: [client 100.1.102.62] ModSecurity: Access denied with code 403 (phase 2). detected SQLi using libinjection with fingerprint 's;Tks' [file "/usr/local/nginx/conf/modsecurity.conf"] [line "229"] [id "152"] [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "AcAcAcAx9cAHAcAc9cAcccAc"]
+2017/03/28 07:40:34 [error] 2057#0: [client 100.1.102.62] ModSecurity: Audit log: Failed to lock global mutex: Permission denied [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "AcAcAcAx9cAHAcAc9cAcccAc"]
+2017/03/28 07:40:34 [error] 2057#0: [client 100.1.102.62] ModSecurity: Audit log: Failed to unlock global mutex: Permission denied [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "AcAcAcAx9cAHAcAc9cAcccAc"]
+2017/03/28 07:41:26 [notice] 2073#0: ModSecurity for nginx (STABLE)/2.9.1 (http://www.modsecurity.org/) configured.
+2017/03/28 07:41:26 [notice] 2073#0: ModSecurity: APR compiled version="1.5.2"; loaded version="1.5.2"
+2017/03/28 07:41:26 [notice] 2073#0: ModSecurity: PCRE compiled version="8.38 "; loaded version="8.38 2015-11-23"
+2017/03/28 07:41:26 [notice] 2073#0: ModSecurity: LIBXML compiled version="2.9.3"
+2017/03/28 07:41:26 [notice] 2073#0: ModSecurity: StatusEngine call: "2.9.1,nginx,1.5.2/1.5.2,8.38/8.38 2015-11-23,(null),2.9.3,5fb7332563dc638c4cd5d75c34d5e19326492db8"
+2017/03/28 07:41:26 [notice] 2073#0: ModSecurity: StatusEngine call successfully sent. For more information visit: http://status.modsecurity.org/
+2017/03/28 07:41:26 [notice] 2073#0: signal process started
+2017/03/28 07:42:51 [notice] 2084#0: ModSecurity for nginx (STABLE)/2.9.1 (http://www.modsecurity.org/) configured.
+2017/03/28 07:42:51 [notice] 2084#0: ModSecurity: APR compiled version="1.5.2"; loaded version="1.5.2"
+2017/03/28 07:42:51 [notice] 2084#0: ModSecurity: PCRE compiled version="8.38 "; loaded version="8.38 2015-11-23"
+2017/03/28 07:42:51 [notice] 2084#0: ModSecurity: LIBXML compiled version="2.9.3"
+2017/03/28 07:42:51 [notice] 2084#0: ModSecurity: StatusEngine call: "2.9.1,nginx,1.5.2/1.5.2,8.38/8.38 2015-11-23,(null),2.9.3,5fb7332563dc638c4cd5d75c34d5e19326492db8"
+2017/03/28 07:42:51 [notice] 2084#0: ModSecurity: StatusEngine call successfully sent. For more information visit: http://status.modsecurity.org/
+2017/03/28 07:42:51 [notice] 2084#0: signal process started
+2017/03/28 07:43:02 [error] 2085#0: [client 100.1.102.62] ModSecurity: Access denied with code 403 (phase 2). String match "delete" at ARGS:entry. [file "/usr/local/nginx/conf/modsecurity.conf"] [line "231"] [id "11"] [msg "SQL Injection Multi Query"] [severity "ALERT"] [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "AcAsAc5cAcAcfcFcAYAcAcAG"]
+2017/03/28 07:43:07 [error] 2085#0: [client 100.1.102.62] ModSecurity: Audit log: Failed to lock global mutex: Permission denied [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "AcAsAc5cAcAcfcFcAYAcAcAG"]
+2017/03/28 07:43:07 [error] 2085#0: [client 100.1.102.62] ModSecurity: Audit log: Failed to unlock global mutex: Permission denied [hostname "ip-172-31-22-5"] [uri "/"] [unique_id "AcAsAc5cAcAcfcFcAYAcAcAG"]
