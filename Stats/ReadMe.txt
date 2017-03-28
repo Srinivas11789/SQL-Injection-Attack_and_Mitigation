@@ -21,5 +21,6 @@ March 27 2017 - Monday - NGINX Reverse Proxy Setup with MOD Security
 -- Mod Security Rules Analysis
 -- Mitigation redirect to page 403
 
+March 28 2017 - Tuesday - Deliver the prototype
 
 
